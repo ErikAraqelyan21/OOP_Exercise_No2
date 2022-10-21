@@ -1,6 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        Time t = new Time(0,0,0);
-        t.timeCheck(14,30,25);
+        Circle c = new Circle(2);
+        System.out.println(c.getRadius());
+        System.out.println(c.getArea());
+        System.out.println("==============");
+        System.out.println(c);
+        System.out.println("==============");
+        Cylinder c1 = new Cylinder(3);
+        System.out.println(c1.getHeight());
+        System.out.println(c1.getArea());
     }
 }
